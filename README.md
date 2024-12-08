@@ -1,1 +1,1 @@
-# Vrods
+# Tradução do emulador de Ragnarok Online Private.
