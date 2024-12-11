@@ -43,7 +43,7 @@ OnTouch_:
 
 airplane,243,29,0	duplicate(#AirshipWarp-1)	#AirshipWarp-2	45,1,1
 
-airplane,1,1,0	script	Domestic_Airship	-1,{
+airplane,1,1,0	script	Aeronave_Doméstica	-1,{
 	end;
 OnInit:
 	initnpctimer;
@@ -161,7 +161,7 @@ OnTimer460000:
 	mapannounce "airplane","Welcome to Juno. Have a safe trip.",bc_map,"0xff8200";
 	end;
 OnTimer470000:
-	mapannounce "airplane","Currently we are in Juno. The Airship will leave shortly.",bc_map,"0xff8200";
+	mapannounce "airplane","No momento estamos em Juno. O Dirigível partirá em breve..",bc_map,"0xff8200";
 	end;
 OnTimer480000:
 	donpcevent "#AirshipWarp-1::OnHide";
